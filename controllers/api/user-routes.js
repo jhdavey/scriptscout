@@ -11,6 +11,9 @@ router.post('/', async (req, res) => {
             req.session.name = dbUserData.name;
             req.session.email = dbUserData.email;
             req.session.password = dbUserData.password;
+            req.session.jobTitle = dbUserData.jobTitle;
+            req.session.location = dbUserData.location;
+            req.session.aboutMe = dbUserData.aboutMe;
             req.session.loggedIn = true;
             res.status(201).json({ message: `Account created for ${dbUserData.name}`});
         });
