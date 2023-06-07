@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Junior Full Stack Developer",
+    "summary": "We are seeking a highly motivated and skilled Junior Full Stack Developer to join our dynamic team. As a Junior Full Stack Developer, you will be responsible for assisting in the development and maintenance of both front-end and back-end components of our web applications. You will collaborate with senior developers to implement new features, conduct bug fixes, and optimize performance. This role requires strong problem-solving skills, a solid understanding of web technologies, and a passion for learning and growing in a fast-paced environment. The ideal candidate should possess a basic understanding of HTML, CSS, JavaScript, and experience with frameworks such as React or Angular on the front end, as well as Node.js or Django on the back end.",
+    "reqs": "Must have 1 year of experience with Javascript, Node, Sequelize",
+    "location": "Florida",
+    "salary": 95000,
+    "applyLink": "www.indeed.com",
+    "user_id": 1
+  },
+  {
+    "title": "Junior Software Engineer",
+    "summary": "We are seeking a talented and enthusiastic Junior Software Engineer to join our dynamic and innovative team. As a Junior Software Engineer, you will play a crucial role in developing and maintaining our software applications and systems. You will work closely with senior engineers and project managers to contribute to the design, implementation, and testing of software solutions.",
+    "reqs": "Must have 1 year of experience with Javascript, Node, Sequelize",
+    "location": "Florida",
+    "salary": 80000,
+    "applyLink": "www.indeed.com",
+    "user_id": 2
+  }, 
+  {
+    "title": "Full Stack Intern",
+    "summary": "We are looking for a motivated Full Stack Intern to join our team and gain hands-on experience in developing and maintaining web applications. As a Full Stack Intern, you will work closely with our experienced developers to assist in front-end and back-end development tasks, implement new features, and troubleshoot issues. This internship provides an excellent opportunity to enhance your skills in HTML, CSS, JavaScript, as well as frameworks like React or Angular on the front end, and Node.js or Django on the back end. We are seeking individuals with a passion for technology, strong problem-solving abilities, and a desire to learn and grow in a collaborative environment. This internship will provide valuable real-world experience and the chance to contribute to the development of innovative web solutions.",
+    "reqs": "Must have 1 year of experience with Javascript, Node, Sequelize",
+    "location": "Florida",
+    "salary": 75000,
+    "applyLink": "www.indeed.com",
+    "user_id": 1
+  }
+]
