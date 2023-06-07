@@ -1,0 +1,29 @@
+{
+  "name": "scout",
+  "version": "1.0.0",
+  "description": "Script Scout is a job application platform for Junior Developers. It is a web-based application designed to assist junior developers in their job application process. This platform provides a streamlined and user-friendly interface for junior developers to discover, apply, and track their job applications in an organized manner. By leveraging this application, junior developers can enhance their chances of securing employment opportunities in the competitive tech industry.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "connect-session-sequelize": "^7.1.7",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.32.0"
+  }
+}
