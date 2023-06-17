@@ -6,7 +6,7 @@ const withAuth = require('../utils/auth');
 router.get('/', async (req, res) => {
   try {
       const dbPostData = await Post.findAll({ 
-          attributes: ['id', 'title', 'summary', 'reqs', 'location', 'salary', 'applyLink'],           
+          attributes: ['id', 'companyName', 'companyLogo', 'title', 'summary', 'reqs', 'location', 'salary', 'applyLink'],           
           order: [['created_at', 'DESC']],
       })
 
@@ -105,7 +105,7 @@ router.get('/post/:id', async (req, res) => {
   try{
       const dbPostData = await Post.findOne({
           where: {id: req.params.id},
-          attributes: ['id', 'title', 'summary', 'reqs', 'location', 'salary', 'applyLink'],
+          attributes: ['id', 'companyName', 'companyLogo', 'title', 'summary', 'reqs', 'location', 'salary', 'applyLink'],
           include: [
                 {
                   model: User,

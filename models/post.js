@@ -11,6 +11,14 @@ Post.init(
             primaryKey: true,
             autoIncrement: true,
         },
+        companyName: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        companyLogo: {
+            type: DataTypes.STRING,
+            allowNull: true,
+        },
         title: {
             type: DataTypes.STRING,
             allowNull: false,

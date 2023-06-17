@@ -1,6 +1,8 @@
 const newJobFormHandler = async (event) => {
     event.preventDefault();
 
+    const companyName = document.querySelector('#new-company').value.trim();
+    const companyLogo= document.querySelector('#new-company-logo').value.trim();
     const title = document.querySelector('#new-job-title').value.trim();
     const summary = document.querySelector('#new-job-summary').value.trim();
     const reqs = document.querySelector('#new-job-reqs').value.trim();
@@ -11,6 +13,8 @@ const newJobFormHandler = async (event) => {
     const response = await fetch('/api/posts', {
         method: 'POST',
         body: JSON.stringify({
+            companyName,
+            companyLogo,
             title,
             summary,
             reqs,

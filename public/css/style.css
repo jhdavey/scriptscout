@@ -16,3 +16,7 @@
 .project-image {
     height: 150px;
 }
+
+.border-bottom {
+    border-bottom: 3px solid black;
+}

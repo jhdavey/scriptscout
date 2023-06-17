@@ -1,11 +1,24 @@
 
     <div class="d-flex justify-content-center mt-3">
-        <div class="col-9">
+        <div class="col-6">
             {{#if loggedIn}}
-            <a class="float-end text-white" href="/newpost">Post a Job</a>
+            <h5>Browse recent job postings for entry level dev positions</h5>
             {{else}}
-            <p class="float-end text-white">Login to post a job</p>
+            <h5>Login to browse or post job opportunities for entry level developers </h5>
             {{/if}}
+        </div>
+        <div class="col-3">
+            {{#if loggedIn}}
+            <a class="float-end" href="/newpost">Post a Job</a>
+            {{else}}
+            <p class="float-end">Login to post a job</p>
+            {{/if}}
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-3">
+        <div class="col-9">
+
         </div>
     </div>
 
