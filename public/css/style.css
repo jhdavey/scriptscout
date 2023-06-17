@@ -2,8 +2,8 @@
     min-height: 250px;
 }
 
-.navbar-brand {
-    height: 100px;
+.container-fluid {
+    height: 60px;
 }
 
 .edit-btn {
